@@ -1,3 +1,5 @@
+本仓库基本全部来自 https://github.com/TTY-flag/evilPatcher，做了 python3 的适配。
+
 # 基于pwntools和seccomp-tools的awd pwn通防小工具
 
 ​	最初想法是想找到一种不影响程序本身运行，但是能够给程序禁用一些系统调用（execve、open等）来实现通防的方法。看了网上很多资料，感觉没有找到比较理想的解决方案，有一些是环境都搭不起来，有一些工具对文件本身内容改动太大了（加段），而awd中假如check的脚本是本地运行的话是有可能check文件修改字节数的。那就只能自己动手，丰衣足食了。
